@@ -1,0 +1,3 @@
+--RESET PASSWORD VIA DB
+
+EXEC [sqladmin].[dbo].[usp_reset_password_single_user_only] @db_name , @default_password , @username
